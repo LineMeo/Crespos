@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display';
+    list-style: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: #F6F6F6;
+}
+
+header .logo img{
+    width: 100px;
+}
+
+header .menu{
+    width: 60%;
+}
+
+header .menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    color:gray;
+}
+
+header .menu li {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+header .menu li:hover{
+    color:#9767A9;
+    font-weight: 700;
+}
+
+header form{
+    display: flex;
+    align-items: center;
+}
+
+header input{
+    border-radius: 10px;
+    border: solid 3px #9767A9;
+    width: 200px;
+    height:30px;
+    background-image: url('./imagens/lupa.svg');
+    background-repeat: no-repeat;
+    background-position: 8px;
+    text-align: center;
+}
+
+header input::placeholder {
+    color: gray;
+}
+
+header .social-media img{
+    width: 30px;
+}
+
+main{
+    width: 100%;
+    color:#FFFFFF;
+}
+
+main .cabeludo{
+    background-image: url('./imagens/cabeludo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:550px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+main .cabeludo h1{
+    width: 240px;
+    margin-top: 100px;
+    margin-right: 240px;
+    font-size: 60px;
+}
+
+main .cabeludo p{
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+main .text{
+    background-color: #9767A9;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height:300px;
+}
+
+main .text h2{
+    margin-left: 100px;
+    margin-bottom: 160px;
+    width: 53%;
+    font-size: 40px;
+}
+
+main .text p{
+    margin-right: 100px;
+    width: 50%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+main .firstSection{
+    border: solid red;
+    width: 600px;
+    height:800px;
+    position: relative;
+    left: 60px;
+    bottom:70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstSection .firstBox img{
+    width: 520px;
+}
+
+main .firstText{
+    background-color: #9767A9;
+    width: 400px;
+    position: relative;
+    bottom:100px;
+}
+
+main .firstText h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+main .firstText p{
+    font-size: 20px;
+    text-align: center;
+}
+
+main .secondSection{
+    border: solid blue;
+    width: 600px;
+    height:800px;
+    position: relative;
+    left: 700px;
+    bottom:600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secondSection .secondBox img{
+    width: 520px;
+}
+
+main .secondText{
+    background-color: #9767A9;
+    width: 400px;
+    position: relative;
+    bottom:100px;
+}
+
+main .secondText h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+main .secondText p{
+    font-size: 20px;
+    text-align: center;
+}
